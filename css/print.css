@@ -1,0 +1,15 @@
+
+
+@media print {
+
+  
+  .print {
+    display: block;
+  }
+ .btn, th{
+  display: none;
+}
+
+
+}
+

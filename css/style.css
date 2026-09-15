@@ -1,0 +1,238 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.main-content{
+    margin-top: -10px;
+}
+
+.main-content .websitename {
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
+}
+.main-content .websitename .row{
+    display: grid;
+    grid-template-columns: 6fr 7fr;
+}
+
+.main-content .websitename .row .col {
+    padding: 0;
+}
+
+.websitename .web {
+    float: left;
+    width: 100%;
+    
+}
+.websitename .web h3 {
+    font-size: 20;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.websitename .web1 {
+    float: right;
+    text-align: center;
+    width: 40%;
+}
+
+/* NAVBAR STARTING*/
+.navbar{
+background:gray;
+display: table;
+margin: auto;
+}
+
+.navbar ul {
+margin: 0;
+padding: 0;
+list-style: none;
+position: relative;
+text-align: center;
+}
+
+
+.navbar ul li a {
+display: block;
+padding: 10px; 
+color: white;
+text-decoration: none;
+width: 150px;
+
+}
+
+.navbar ul:after {
+content: "";clear:both;
+display: block;
+}
+
+.navbar ul li{
+float: left;
+list-style: none;
+}
+
+.navbar ul ul {
+    display: none;
+}
+
+.navbar ul li:hover ul{
+    display: block;
+
+}
+
+.navbar ul li:hover {
+    background: black;
+}
+
+.navbar ul li ul li {
+    width: 150px;
+    text-align: center;
+}
+
+.navbar ul ul{
+    background: #3CB371;
+    padding: 0;
+    margin: 0;
+    position: absolute; 
+    top: 100%;
+}
+
+.navbar ul ul li{
+    float: none;
+    position: relative;
+}
+
+.navbar ul ul li a{
+    color:white;
+    font-size: 14;
+}
+
+.navbar ul ul li a:hover {
+    background:black;
+    color: greenyellow;
+
+}
+
+
+/* NAVBAR ENDING*/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=password] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container11 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.container12 {
+  margin-top: 30px; 
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-left: 170px;
+  margin-right: 120px;
+}
+.container14 {
+  margin-top: 70px; 
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  margin-left: 270px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+ .btn-custom{ 
+
+    border-color:black;
+    margin-left: 10px;
+     background: #fff;
+     color: #000;
+    
+}
+
+
+.login{
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.navbar-white {
+    background-color: gray;
+    padding: 10px;
+}
+
+
+.table-dark {
+    color: #ffffff;
+    background-color: #808080;
+}
